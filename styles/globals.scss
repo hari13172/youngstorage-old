@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import "signin.scss";
+@import "signup.scss";
+@import "forget.scss";
+@import "newpsk.scss";
+@import "verify.scss";
+@import "nav.scss";
+@import "dashboard.scss";
+@import "network.scss";
+@import "alerts.scss";
+@import "labs.scss";
+@import "subhead.scss";
+@import "ubuntu.scss";
+@import "domain.scss";
+@import "component/button.scss";
+@import "component/badge.scss";
+@import "component/index.scss";
+
+:root {
+  --dark: #00171f;
+  --light-bg: #f1f3f6;
+  --primary-color: #334afd;
+  --primary-hover: #1124ba;
+  --input-color: #555;
+  --text1-color: #fd7401;
+  --text2-color: #000000;
+  --white-color: #ffffff;
+  --background-color: #f1f3f6;
+  --btn-hover: #6e7dee;
+  --nav-font: #b4b5b7;
+  --nav-font-hover: #767676;
+  --info-color: #5458f7;
+  --button-color: #19af66;
+  --button1-color: #334afd;
+  --success: #19af66;
+  --success-hover: #048748;
+  --error: #f35746;
+  --error-hover: #c83120;
+  --warning: #f2c94c;
+  --warning-hover: #caa023;
+  --info: #5458f7;
+  --info-hover: #373ada;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}

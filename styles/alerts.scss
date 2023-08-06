@@ -1,0 +1,35 @@
+.info-container {
+  width: 1200px;
+  height: 120px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 20px;
+  border-radius: 0px 20px 20px 0px;
+  background: #e1e3f6;
+
+
+  &::before {
+    content: "";
+    width: 10px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background: var(--info-color);
+  }
+
+  img {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .low {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+
+}
